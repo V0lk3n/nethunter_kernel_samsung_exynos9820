@@ -20,7 +20,10 @@
 
 #include "../hal/phydm/phydm_precomp.h"
 #if defined(CONFIG_RTL8723B) || defined(CONFIG_RTL8821A)
+	#pragma pack(push)
+	#pragma pack(1)
 	#include <rtw_bt_mp.h>
+	#pragma pack(pop)
 #endif
 
 #ifdef CONFIG_MP_VHT_HW_TX_MODE
