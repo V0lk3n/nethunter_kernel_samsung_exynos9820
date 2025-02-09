@@ -787,7 +787,7 @@ ifdef CONFIG_CC_STACKPROTECTOR_REGULAR
   endif
   stackp-name := REGULAR
 else
-ifdef CONFIG_CC_STACKPROTECTOR_NONE
+ifdef CONFIG_CC_STACKPROTECTOR_STRONG
   stackp-flag := -fstack-protector-strong
   ifeq ($(call cc-option, $(stackp-flag)),)
     $(warning Cannot use CONFIG_CC_STACKPROTECTOR_STRONG: \
