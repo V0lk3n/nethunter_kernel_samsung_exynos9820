@@ -10,3 +10,6 @@
 [submodule "kali-nethunter-kernel-builder"]
 	path = kali-nethunter-kernel-builder
 	url = https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-kernel-builder
+[submodule "drivers/net/can/can-isotp"]
+	path = drivers/net/can/can-isotp
+	url = https://github.com/V0lk3n/can-isotp
