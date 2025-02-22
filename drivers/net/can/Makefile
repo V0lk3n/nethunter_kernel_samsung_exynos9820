@@ -13,6 +13,7 @@ can-dev-y			+= rx-offload.o
 
 can-dev-$(CONFIG_CAN_LEDS)	+= led.o
 
+obj-y				+= can-isotp/
 obj-y				+= rcar/
 obj-y				+= spi/
 obj-y				+= usb/
