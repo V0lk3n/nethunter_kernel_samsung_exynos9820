@@ -1,3 +1,5 @@
+![NetHunter_banner](https://github.com/user-attachments/assets/1a49a2cd-bb47-47b2-b8bd-437ad003415c)
+
 # NetHunter Kernel - Samsung Galaxy S10 Exynos9820 Beyond1lte
 
 Official lineage documentation has been moved to <a href="Documentation/README">Documentation</a>
