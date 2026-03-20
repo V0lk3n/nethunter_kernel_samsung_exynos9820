@@ -1125,7 +1125,7 @@ struct net_device *ip6_dev_find(struct net *net, const struct in6_addr *addr)
 		}
 	}
 	if (!result) {
-		struct rt6_info *rt = rt6_lookup(net, addr, NULL, 0, 0);
+		struct rt6_info *rt = rt6_lookup(net, addr, NULL, 0, 0, NULL);
 
 		if (rt) {
 			result = rt->dst.dev;
