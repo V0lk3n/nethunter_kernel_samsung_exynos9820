@@ -140,9 +140,6 @@ static int tcp_v6_pre_connect(struct sock *sk, struct sockaddr *uaddr,
 	return BPF_CGROUP_RUN_PROG_INET6_CONNECT(sk, uaddr);
 }
 
-#ifndef CONFIG_MPTCP
-static
-#endif
 static int tcp_v6_connect(struct sock *sk, struct sockaddr *uaddr,
 			  int addr_len)
 {
